@@ -56,23 +56,20 @@
 								<a class="nav-link" href="index.html">Home</a>
 							</li>
 							<li class="nav-item dropdown dropdown-slide">
-								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Dashboard<span><i class="fa fa-angle-down"></i></span>
+								<a class="nav-link dropdown-toggle" href="dashboard.html">Orders
 								</a>
-
-								<!-- Dropdown list -->
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="dashboard.html">Dashboard</a>
-									<a class="dropdown-item" href="dashboard-my-ads.html">Dashboard My Ads</a>
-									<a class="dropdown-item" href="dashboard-favourite-ads.html">Dashboard Favourite Ads</a>
-									<a class="dropdown-item" href="dashboard-archived-ads.html">Dashboard Archived Ads</a>
-									<a class="dropdown-item" href="dashboard-pending-ads.html">Dashboard Pending Ads</a>
-								</div>
 							</li>
 							<li class="nav-item dropdown dropdown-slide">
+								<a class="nav-link dropdown-toggle" href="category.html">Inventory
+								</a>
+								<!-- Dropdown list -->
+								
+							</li>
+							<!-- li class="nav-item dropdown dropdown-slide">
 								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Pages <span><i class="fa fa-angle-down"></i></span>
 								</a>
-								<!-- Dropdown list -->
+								
 								<div class="dropdown-menu">
 									<a class="dropdown-item" href="about-us.html">About Us</a>
 									<a class="dropdown-item" href="contact-us.html">Contact Us</a>
@@ -85,24 +82,29 @@
 									<a class="dropdown-item" href="blog.html">Blog</a>
 
 								</div>
-							</li>
+							</li -->
 							<li class="nav-item dropdown dropdown-slide">
-								<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Listing <span><i class="fa fa-angle-down"></i></span>
+								<a class="nav-link dropdown-toggle" href="blog.html">
+									Blog <span></span>
 								</a>
+							
+						</ul>
 								<!-- Dropdown list -->
-								<div class="dropdown-menu">
+								<!-- <div class="dropdown-menu">
 									<a class="dropdown-item" href="category.html">Ad-Gird View</a>
 									<a class="dropdown-item" href="ad-listing-list.html">Ad-List View</a>
 								</div>
 							</li>
-						</ul>
+						</ul> -->
 						<ul class="navbar-nav ml-auto mt-10">
 							<li class="nav-item">
 								<a class="nav-link login-button" href="login.html">Login</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white add-button" href="ad-listing.html"><i class="fa fa-plus-circle"></i> Add Listing</a>
+								<a class="nav-link login-button" href="user-profile.html">Edit Profile</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white add-button" href="ad-listing.html"><i class="fa fa-plus-circle"></i> Add Items</a>
 							</li>
 						</ul>
 					</div>
@@ -111,11 +113,11 @@
 		</div>
 	</div>
 </section>
-<section class="page-search">
+<!-- <section class="page-search">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<!-- Advance Search -->
+				 Advance Search 
 				<div class="advance-search">
 					<form>
 						<div class="form-row">
@@ -138,21 +140,22 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="section-sm">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				
 				<div class="search-result bg-gray">
-					<h2>Results For "Electronics"</h2>
-					<p>123 Results on 12 December, 2017</p>
+					<h2>Available Items in Inventory</h2>
+					<p>25 Items on 4 May, 2021</p>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
 				<div class="category-sidebar">
-					<div class="widget category-list">
+	<!-- 				<div class="widget category-list">
 	<h4 class="widget-header">All Category</h4>
 	<ul class="category-list">
 		<li><a href="category.html">Laptops <span>93</span></a></li>
@@ -160,9 +163,9 @@
 		<li><a href="category.html">Microsoft  <span>183</span></a></li>
 		<li><a href="category.html">Monitors <span>343</span></a></li>
 	</ul>
-</div>
+</div> -->
 
-<div class="widget category-list">
+<!-- <div class="widget category-list">
 	<h4 class="widget-header">Nearby</h4>
 	<ul class="category-list">
 		<li><a href="category.html">New York <span>93</span></a></li>
@@ -172,25 +175,25 @@
 		<li><a href="category.html">Texas <span>40</span></a></li>
 		<li><a href="category.html">Alaska <span>81</span></a></li>
 	</ul>
-</div>
+</div> -->
 
 <div class="widget filter">
-	<h4 class="widget-header">Show Produts</h4>
+	<h4 class="widget-header">Sort Produts</h4>
 	<select>
-		<option>Popularity</option>
+		<option>By Popularity</option>
 		<option value="1">Top rated</option>
 		<option value="2">Lowest Price</option>
 		<option value="4">Highest Price</option>
-	</select>
+	</select><br><br>
 </div>
 
 <div class="widget price-range w-100">
-	<h4 class="widget-header">Price Range</h4>
+	<h4 class="widget-header">By Price Range</h4>
 	<div class="block">
 						<input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
 						data-slider-value="[0,5000]">
 				<div class="d-flex justify-content-between mt-2">
-						<span class="value">$10 - $5000</span>
+						<span class="value">Rs100 - Rs10000</span><br><br><br>
 				</div>
 	</div>
 </div>
@@ -218,7 +221,7 @@
 	<div class="form-check">
 	  <label class="form-check-label">
 	    <input class="form-check-input" type="checkbox" value="">
-	    Havely New
+	    Used (Old)
 	  </label>
 	</div>
 </div>
@@ -229,7 +232,7 @@
 				<div class="category-search-filter">
 					<div class="row">
 						<div class="col-md-6">
-							<strong>Short</strong>
+							<strong>Sort </strong>
 							<select>
 								<option>Most Recent</option>
 								<option value="1">Most Popular</option>
@@ -691,14 +694,14 @@
     <div class="row">
       <div class="col-sm-6 col-12">
         <!-- Copyright -->
-        <div class="copyright">
+        <!-- <div class="copyright">
           <p>Copyright © <script>
               var CurrentYear = new Date().getFullYear()
               document.write(CurrentYear)
             </script>. All Rights Reserved, theme by <a class="text-primary" href="https://themefisher.com" target="_blank">themefisher.com</a></p>
-        </div>
+        </div> -->
       </div>
-      <div class="col-sm-6 col-12">
+      <div class="col-sm-12 col-12">
         <!-- Social Icons -->
         <ul class="social-media-icons text-right">
           <li><a class="fa fa-facebook" href="https://www.facebook.com/themefisher" target="_blank"></a></li>
